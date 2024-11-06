@@ -39,11 +39,19 @@ for (let index = 2; index <= 20;  index=index+2) {
 
 
  console.log(`Table of 10`);
- for (let index = 10; index <=100;  index=index+10) {
+ for (let index = 10; index <= 100; index= index+10) {
     console.log(index);
     
     
  }
 
+ console.log(`Reverse of table 10`);
+ 
+for (let index = 10; index >=1; index--) {
+
+    console.log(index*10);
+    
+    
+}
 
  

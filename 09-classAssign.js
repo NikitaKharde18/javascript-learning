@@ -53,7 +53,6 @@ vehicleSuv.details();
 
 class College {
     
-
     constructor(collegeName,university,collegeAddress,departments) 
     {
         this.collegeName = collegeName;

@@ -33,3 +33,10 @@ myMap.set(22, "Sundar");
 myMap.set(55, "Stew");
 
 console.log(myMap);
+
+
+
+
+
+//console.log(date.getDate());
+

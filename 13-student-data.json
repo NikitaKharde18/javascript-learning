@@ -27,3 +27,23 @@
 
 
 
+
+
+{
+    "name": "Alex Melon",
+    "id":"E00245",
+    "role":["Dev","DBA"],
+    "age":23,
+    "doj":"11-12-2019",
+    "married":false,
+    "address":
+    {
+    "street":"32,La st",
+    "city":"Innsbruck",
+    },
+    "referred-by":"E0012"
+}
+    
+
+
+

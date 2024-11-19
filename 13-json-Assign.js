@@ -1,5 +1,4 @@
-const employee=
-`{
+/*const employee = `{
     "name": "Alex Melon",
     "id":"E00245",
     "role":["Dev","DBA"],
@@ -12,12 +11,74 @@ const employee=
     },
     "referred-by":"E0012"
 }`;
+*/
 
-console.log(`=====================convert to object=================`);
 
-console.log(typeof employee);
-const employeeDataInObjectFormat1 = JSON.parse(employee)
-//console.log(typeof employeeDataInObjectFormat1);
+
+
+
+
+
+
+
+
+
+
+const empInfo =`
+{
+
+    "name": "Aleix Melon",
+
+    "id": "E00245",
+
+    "age": 23,
+
+    "isMarried": false,
+
+    "role": ["Dev", "DBA"],
+
+    "doj":"11-12-2019",
+
+    "address" : {
+
+        "street": "30, Laham St.",
+
+        "city": "Innsbruck",
+
+        "country": "Austria"
+
+    },
+
+    "referred-by": "E0012"
+
+}`;
+
+
+
+
+
+
+console.log(`=====================Convert string to object=================`);
+
+console.log(typeof empInfo);
+const empInformation = JSON.parse(empInfo);
+console.log(typeof empInformation);
+console.log(`=======================================================================`);
+
+console.log(empInformation.role[0]);
+
+console.log(`============================Last Name==================================`);
+
+const namee=empInformation.name.split(" ")[1];
+console.log(namee);
+console.log(`============================Joining Year===============================`);
+
+const year = empInformation.doj.split("-")[2];
+console.log(year);
+
+
+
+
 
 
 

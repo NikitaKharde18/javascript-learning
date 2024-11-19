@@ -33,16 +33,16 @@ const studentDataInObjectFormat = JSON.parse(studentData);
 
 console.log(typeof studentDataInObjectFormat);
 
-console.log(studentDataInObjectFormat);
+//console.log(studentDataInObjectFormat);
 
-console.log(studentDataInObjectFormat.skills);
+//console.log(studentDataInObjectFormat.skills);
 
-console.log(studentDataInObjectFormat.city);
-
-
+//console.log(studentDataInObjectFormat.city);
 
 
-console.log(`===== Object to JSON String conversion =======`);
+
+
+/*console.log(`===== Object to JSON String conversion =======`);
 
 let studentJenny = {
 
@@ -87,4 +87,4 @@ console.log(typeof studentJennyJson);
 
 
 
-
+*/

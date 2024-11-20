@@ -23,3 +23,18 @@ const arrayEven = arrayNum.filter( (element) => {
 } );
 
 console.log(arrayEven);
+
+
+
+
+console.log(`========== reduce() method ================= `);
+
+const arrayNumber = [3, 6, 2, 1, 9, 4]; 
+
+const sum = arrayNumber.reduce( (runningTotal, element) => {
+
+    return runningTotal + element;
+
+}, 0);
+
+console.log(sum);

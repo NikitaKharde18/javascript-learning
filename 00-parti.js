@@ -40,3 +40,12 @@ console.log(myMap);
 
 //console.log(date.getDate());
 
+var msg = `hello,very good morning-"Sachin"`
+console.log(msg);
+
+
+
+var name1 = "codemind"
+var lastName = "Tech"
+console.log(`Name :${name1} and last name is :${lastName}`);
+ 

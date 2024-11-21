@@ -49,3 +49,27 @@ var name1 = "codemind"
 var lastName = "Tech"
 console.log(`Name :${name1} and last name is :${lastName}`);
  
+
+
+
+/*function isPalindrome(str)
+{
+    const cleanStr=str.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+    const reverseStr = cleanStr.split('').reverse().join('');
+    return cleanStr==reverseStr;
+}
+
+//console.log(isPalindrome("dad"));*/
+
+
+
+console.log("================================================");
+
+const isPalindrome = (str)=>{
+    const cleanStr = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
+    return cleanStr==cleanStr.split("").reverse().join("");
+};
+const testStr = "Madam";
+
+
+console.log(`" ${isPalindrome(testStr) ?"a":"not"} palindrome.`);

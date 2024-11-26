@@ -1,4 +1,4 @@
-let mySet =new Set();
+/*let mySet =new Set();
 
 mySet.add(10);
 mySet.add(20);
@@ -61,7 +61,7 @@ console.log(`Name :${name1} and last name is :${lastName}`);
 
 //console.log(isPalindrome("dad"));*/
 
-
+/*
 
 console.log("================================================");
 
@@ -70,6 +70,26 @@ const isPalindrome = (str)=>{
     return cleanStr==cleanStr.split("").reverse().join("");
 };
 const testStr = "Madam";
+const testStr1 = "Hello";
 
 
-console.log(`" ${isPalindrome(testStr) ?"a":"not"} palindrome.`);
+console.log(`"${testStr}" ${isPalindrome(testStr)} palindrome.`);
+console.log(`"${testStr1}" ${isPalindrome(testStr1)} palindrome.`);
+*/
+
+//let date = new Date();
+//console.log(date);
+//console.log(date.getDate());
+//console.log(date.toDateString());
+//console.log(date.toTimeString());
+/*var name = "hello"
+var nammeNmber = +name;
+console.log(nammeNmber);
+var div = 0%0;
+console.log(div);
+*/
+
+
+
+let array = [1,2,4,4,5,6,7,5,8,8,9,0,9];
+console.log(array);
